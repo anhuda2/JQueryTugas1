@@ -1,0 +1,37 @@
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+  }
+  
+  table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  table tbody tr {
+    transition: all 0.3s;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f8f9fa;
+  }
+  
+  table tbody td {
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table tfoot th {
+    vertical-align: bottom;
+    border-top: 2px solid #dee2e6;
+  }
+  
+  table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .font-amiri {
+    font-family: 'Amiri Quran', serif;
+  }
